@@ -15,6 +15,7 @@
 		3340A76C1C29A18D00E353B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3340A76A1C29A18D00E353B8 /* LaunchScreen.storyboard */; };
 		3340A7771C29A18E00E353B8 /* ThinViewControllerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3340A7761C29A18E00E353B8 /* ThinViewControllerDemoTests.m */; };
 		3340A7821C29A18E00E353B8 /* ThinViewControllerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3340A7811C29A18E00E353B8 /* ThinViewControllerDemoUITests.m */; };
+		33E2F2AB1C29ABD50011DD6B /* DataSourceArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E2F2AA1C29ABD50011DD6B /* DataSourceArray.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		3340A77D1C29A18E00E353B8 /* ThinViewControllerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThinViewControllerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3340A7811C29A18E00E353B8 /* ThinViewControllerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThinViewControllerDemoUITests.m; sourceTree = "<group>"; };
 		3340A7831C29A18E00E353B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33E2F2A91C29ABD50011DD6B /* DataSourceArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataSourceArray.h; sourceTree = "<group>"; };
+		33E2F2AA1C29ABD50011DD6B /* DataSourceArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataSourceArray.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		3340A75B1C29A18D00E353B8 /* ThinViewControllerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				33E2F2A81C29ABD50011DD6B /* Model */,
 				3340A75F1C29A18D00E353B8 /* AppDelegate.h */,
 				3340A7601C29A18D00E353B8 /* AppDelegate.m */,
 				3340A7621C29A18D00E353B8 /* ViewController.h */,
@@ -138,6 +142,15 @@
 				3340A7831C29A18E00E353B8 /* Info.plist */,
 			);
 			path = ThinViewControllerDemoUITests;
+			sourceTree = "<group>";
+		};
+		33E2F2A81C29ABD50011DD6B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				33E2F2A91C29ABD50011DD6B /* DataSourceArray.h */,
+				33E2F2AA1C29ABD50011DD6B /* DataSourceArray.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,6 +285,7 @@
 			files = (
 				3340A7641C29A18D00E353B8 /* ViewController.m in Sources */,
 				3340A7611C29A18D00E353B8 /* AppDelegate.m in Sources */,
+				33E2F2AB1C29ABD50011DD6B /* DataSourceArray.m in Sources */,
 				3340A75E1C29A18D00E353B8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -496,6 +510,7 @@
 				3340A7881C29A18E00E353B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3340A7891C29A18E00E353B8 /* Build configuration list for PBXNativeTarget "ThinViewControllerDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +519,7 @@
 				3340A78B1C29A18E00E353B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3340A78C1C29A18E00E353B8 /* Build configuration list for PBXNativeTarget "ThinViewControllerDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +528,7 @@
 				3340A78E1C29A18E00E353B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
